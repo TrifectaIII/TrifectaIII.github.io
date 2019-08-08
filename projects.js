@@ -28,17 +28,17 @@ proj_req.onload = function () {
                     projectsHTML += '<p>';
                         //description
                         projectsHTML += proj.description;
-                        projectsHTML += '<br>';
+                        projectsHTML += '<br><br>';
                         //languages
-                        projectsHTML += '<b>Languages: </b>'+proj.languages;
+                        projectsHTML += '<b>Languages: </b>'+proj.languages.join(', ');
                         projectsHTML += '<br>';
                         //techniques
-                        projectsHTML += '<b>Techniques: </b>'+proj.techniques;
-                        projectsHTML += '<br>';
+                        projectsHTML += '<b>Techniques: </b>'+proj.techniques.join(', ');
+                        projectsHTML += '<br><br>';
                         // site link
-                        projectsHTML += '<a href="' + proj.link + '" class="project-link"><b>Link</b></a> | ';
+                        projectsHTML += '<a href="' + proj.link + '" class="project-link">Link</a> | ';
                         // github link
-                        projectsHTML += '<a href="' + proj.github + '" class="project-link"><b>GitHub Repo</b></a>';
+                        projectsHTML += '<a href="' + proj.github + '" class="project-link">GitHub</a>';
                     projectsHTML += '</p>';
                 projectsHTML += '</div>';
                 projectsHTML += '<div class="six columns">';

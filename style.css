@@ -22,6 +22,14 @@
 
 .project-header {
     /* text-align: center; */
-    margin-top:5rem;
+    margin-top:3rem;
+    font-weight: bold;
+}
+
+.project-link {
+    font-weight: bold;
+}
+
+.personal-link {
     font-weight: bold;
 }
