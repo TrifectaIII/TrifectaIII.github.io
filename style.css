@@ -12,6 +12,7 @@
     max-width: 100%;
     width:60rem;
     border-radius: 2rem;
+    border: 1px solid #E1E1E1;
 }
 
 .project-rule {
