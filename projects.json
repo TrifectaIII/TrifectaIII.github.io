@@ -1,20 +1,23 @@
 {
     "MTG-Card-Reader-Web":{
         "github":"https://github.com/TrifectaIII/MTG-Card-Reader-Web",
-        "languages":["Python","HTML","CSS","JS"],
-        "techniques":["Image Classification","Feature Detection","Computer Vision"],
-        "description":"PUT DESCRIPTION HERE"
+        "languages":"Python, HTML, CSS, JS",
+        "techniques":"Image Classification, Feature Detection, Computer Vision, UI Design, Full-Stack Development",
+        "description":"PUT DESCRIPTION HERE",
+        "image":"mtgcr.png"
     },
     "MusiQ":{
         "github":"https://github.com/TrifectaIII/replit-music-jam",
-        "languages":["Node.js","HTML","CSS","JS"],
-        "techniques":["Websockets","Real-Time Communication"],
-        "description":"PUT DESCRIPTION HERE"
+        "languages":"Node.js, HTML, CSS, JS",
+        "techniques":"Websockets, Real-Time Communication, UI Design, Full-Stack Development",
+        "description":"PUT DESCRIPTION HERE",
+        "image":"musiq.png"
     },
     "ZPS 2020":{
         "github":"https://github.com/yaboigraves/replit-game-jam",
-        "languages":["JS"],
-        "techniques":["PUT TECHNIQUES HERE"],
-        "description":"PUT DESCRIPTION HERE"
+        "languages":"JS",
+        "techniques":"UI Design",
+        "description":"PUT DESCRIPTION HERE",
+        "image":"zps2020.png"
     }
 }

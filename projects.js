@@ -19,10 +19,25 @@ proj_req.onload = function () {
             let proj = projects[proj_name];
 
             //add html code for this project
+            
+            //header
             projectsHTML += '<h4>'+proj_name+'</h4>';
 
+            //image
+            projectsHTML += '<img src="'+proj.image+'" class="project-image"><br>';
+
             projectsHTML += '<p>';
-            projectsHTML += '<a href="' + proj.github + '">GitHub Repo</a>'         
+                //description
+                projectsHTML += proj.description;
+                projectsHTML += '<br>';
+                //languages
+                projectsHTML += '<b>Languages: </b>'+proj.languages;
+                projectsHTML += '<br>';
+                //techniques
+                projectsHTML += '<b>Techniques: </b>'+proj.techniques;
+                projectsHTML += '<br>';
+                // github link
+                projectsHTML += '<a href="' + proj.github + '" class="project-link"><b>GitHub Repo</b></a>'  
             projectsHTML += '</p>';
         };
 
