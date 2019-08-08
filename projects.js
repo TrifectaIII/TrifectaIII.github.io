@@ -35,6 +35,8 @@ proj_req.onload = function () {
                         //techniques
                         projectsHTML += '<b>Techniques: </b>'+proj.techniques;
                         projectsHTML += '<br>';
+                        // site link
+                        projectsHTML += '<a href="' + proj.link + '" class="project-link"><b>Link</b></a> | ';
                         // github link
                         projectsHTML += '<a href="' + proj.github + '" class="project-link"><b>GitHub Repo</b></a>';
                     projectsHTML += '</p>';
