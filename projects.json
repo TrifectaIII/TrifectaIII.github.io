@@ -1,5 +1,5 @@
 {
-    "MTG-Card-Reader-Web":{
+    "MTG Card Reader":{
         "github":"https://github.com/TrifectaIII/MTG-Card-Reader-Web",
         "languages":"Python, HTML, CSS, JS",
         "techniques":"Image Classification, Feature Detection, Computer Vision, UI Design, Full-Stack Development",
