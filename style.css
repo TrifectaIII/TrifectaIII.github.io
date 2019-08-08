@@ -11,6 +11,7 @@
 .project-image {
     max-width: 100%;
     width:60rem;
+    border-radius: 2rem;
 }
 
 .project-rule {
