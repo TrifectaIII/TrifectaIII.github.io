@@ -19,26 +19,31 @@ proj_req.onload = function () {
             let proj = projects[proj_name];
 
             //add html code for this project
-            
             //header
-            projectsHTML += '<h4>'+proj_name+'</h4>';
+            projectsHTML += '<h4 class="project-header">'+proj_name+'</h4>';
+            projectsHTML += '<hr class="project-rule">';
 
-            //image
-            projectsHTML += '<img src="'+proj.image+'" class="project-image"><br>';
-
-            projectsHTML += '<p>';
-                //description
-                projectsHTML += proj.description;
-                projectsHTML += '<br>';
-                //languages
-                projectsHTML += '<b>Languages: </b>'+proj.languages;
-                projectsHTML += '<br>';
-                //techniques
-                projectsHTML += '<b>Techniques: </b>'+proj.techniques;
-                projectsHTML += '<br>';
-                // github link
-                projectsHTML += '<a href="' + proj.github + '" class="project-link"><b>GitHub Repo</b></a>'  
-            projectsHTML += '</p>';
+            projectsHTML += '<div class="row">';
+                projectsHTML += '<div class="six columns">';
+                    projectsHTML += '<p>';
+                        //description
+                        projectsHTML += proj.description;
+                        projectsHTML += '<br>';
+                        //languages
+                        projectsHTML += '<b>Languages: </b>'+proj.languages;
+                        projectsHTML += '<br>';
+                        //techniques
+                        projectsHTML += '<b>Techniques: </b>'+proj.techniques;
+                        projectsHTML += '<br>';
+                        // github link
+                        projectsHTML += '<a href="' + proj.github + '" class="project-link"><b>GitHub Repo</b></a>';
+                    projectsHTML += '</p>';
+                projectsHTML += '</div>';
+                projectsHTML += '<div class="six columns">';
+                    //image
+                    projectsHTML += '<img src="'+proj.image+'" class="project-image">';
+                projectsHTML += '</div>';
+            projectsHTML += '</div>';
         };
 
         //alter page element to insert projects

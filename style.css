@@ -6,3 +6,14 @@
     max-width: 100%;
     width:60rem;
 }
+
+.project-rule {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-header {
+    text-align: center;
+    margin-top:5rem;
+    font-weight: bold;
+}
