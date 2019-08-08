@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+
+*, *::after, *::before {
+    font-family: 'PT Mono', monospace;
+}
+
 .container {
     margin-top:10rem;
 }
