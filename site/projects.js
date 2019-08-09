@@ -34,12 +34,15 @@ proj_req.onload = function () {
                         projectsHTML += '<br>';
                         //techniques
                         projectsHTML += '<b>Techniques: </b>'+proj.techniques.join(', ');
-                        projectsHTML += '<br><br>';
+                    projectsHTML += '</p>';
+                    projectsHTML += '<p class="project-links">';
                         // site link
-                        projectsHTML += '<a href="' + proj.link + '" class="project-link">Link</a> | ';
+                        projectsHTML += '<a href="' + proj.link + '" class="project-link">Link</a>';
+                        projectsHTML += ' | ';
                         // github link
                         projectsHTML += '<a href="' + proj.github + '" class="project-link">GitHub</a>';
                     projectsHTML += '</p>';
+
                 projectsHTML += '</div>';
                 projectsHTML += '<div class="six columns">';
                     //image
@@ -62,5 +65,5 @@ proj_req.onerror = function () {
 }
 
 //send request
-proj_req.open('GET', '/projects.json', true);
+proj_req.open('GET', '/site/projects.json', true);
 proj_req.send();

@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/site/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/site/favicon-16x16.png">
 
         <title>Dakota Madden-Fong</title>
 
@@ -13,7 +13,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" type="text/css" />
 
         <!-- Load CSS File -->
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="/site/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class='container'>
@@ -21,13 +21,18 @@
                 <h2>TrifectaIII<br>Dakota Madden-Fong</h2>
                 <hr>
                 <p class='bio'>A coder living and working in San Francisco, CA. I focus on software and web development.</p>
-                <p><a class='personal-link' href="mailto:maddenfong@gmail.com">maddenfong@gmail.com</a> | <a class='personal-link' href="https://github.com/TrifectaIII">GitHub</a> | <a class='personal-link' href="resume.pdf">Resume</a></p>
+                <div class='personal-links'>
+                    <span class='personal link'><a class='personal-link' href="mailto:maddenfong@gmail.com">maddenfong@gmail.com</a></span><br>
+                    <span class='personal link'><a class='personal-link' href="https://github.com/TrifectaIII">GitHub</a></span><br>
+                    <span class='personal link'><a class='personal-link' href="resume.pdf">Resume</a></span><br>
+                </div>
             </div>
             <div class='project-listings'>
                 <!-- JS file will populate this div -->
             </div>
         </div>
+
         <!-- Load JS Files -->
-        <script src="projects.js"></script>
+        <script src="/site/projects.js"></script>
     </body>
 </html>
