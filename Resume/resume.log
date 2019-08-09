@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.25)  9 AUG 2019 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.25)  9 AUG 2019 10:20
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -448,21 +448,21 @@ LaTeX Info: Redefining \nameref on input line 169.
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 174.
+(Font)              <12> on input line 175.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 174.
+(Font)              <8> on input line 175.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 174.
+(Font)              <6> on input line 175.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 35.0pt on input line 174.
+(Font)              scaled to size 35.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 35.0pt on input line 174.
+(Font)              scaled to size 35.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/it' will be
-(Font)              scaled to size 12.0pt on input line 174.
+(Font)              scaled to size 12.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 10.95pt on input line 174.
+(Font)              scaled to size 10.95pt on input line 175.
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 174.
+line 175.
 
 (C:\Users\Dakota\AppData\Roaming\MiKTeX\2.9\tex/latex/fontawesome\ufontawesomet
 wo.fd
@@ -470,7 +470,7 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/light/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 174.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 175.
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 12.0pt on input line 179.
@@ -497,31 +497,31 @@ LaTeX Font Warning: Font shape `U/fontawesomeone/light/n' undefined
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/bold/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 236.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 214.
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 265.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+(Font)              scaled to size 10.95pt on input line 243.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
 [1
 
 {C:/Users/Dakota/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
 
 (resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
  8418 strings out of 492895
  126249 string characters out of 3135828
- 212662 words of memory out of 3000000
+ 209662 words of memory out of 3000000
  12259 multiletter control sequences out of 15000+200000
  154959 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -535,9 +535,9 @@ onts/type1/public/fira/FiraSans-Book.pfb><C:/Users/Dakota/AppData/Roaming/MiKTe
 X/2.9/fonts/type1/public/fira/FiraSans-Light.pfb><C:/Users/Dakota/AppData/Roami
 ng/MiKTeX/2.9/fonts/type1/public/fira/FiraSans-LightItalic.pfb><C:/Users/Dakota
 /AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on resume.pdf (1 page, 203901 bytes).
+Output written on resume.pdf (1 page, 202898 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
