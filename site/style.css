@@ -4,6 +4,17 @@
     font-family: 'PT Mono', monospace;
 }
 
+.name-header {
+    font-size:7vw;
+    font-weight: bold;
+}
+
+@media (min-width: 550px) {
+    .name-header {
+        font-size: 3.6rem;
+    }
+}
+
 .container {
     margin-top:10rem;
 }
@@ -22,7 +33,7 @@
 
 .project-header {
     /* text-align: center; */
-    margin-top:3rem;
+    margin-top:4rem;
     font-weight: bold;
 }
 
