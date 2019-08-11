@@ -5,7 +5,7 @@
 }
 
 .name-header {
-    font-size:7vw;
+    font-size:8vw;
     font-weight: bold;
 }
 
@@ -35,6 +35,13 @@
     /* text-align: center; */
     margin-top:4rem;
     font-weight: bold;
+    font-size:7vw;
+}
+
+@media (min-width: 550px) {
+    .project-header {
+        font-size: 3.0rem;
+    }
 }
 
 .project-link {
