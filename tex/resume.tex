@@ -98,7 +98,7 @@
 % Resume item
 \renewcommand{\labelitemii}{\bulletstyle}
 \newcommand{\resumeItem}[1]{
-  \item\small{
+  \item{%removed \small
     {#1 \vspace{-2pt}}
   }
 }
@@ -180,7 +180,7 @@
 
   \resumeEntryStart
     \resumeEntryTSDL
-      {Willamette University}{2013 -- 2018}
+      {Willamette University}{2013 --- 2018}
       {BA Computer Science}{Salem, OR}
   \resumeEntryEnd
 
@@ -189,23 +189,23 @@
 
   \resumeEntryStart
     \resumeEntryTSDL
-      {The Coder School San Francisco}{November 2018 -- Present}
+      {The Coder School San Francisco}{November 2018 --- Present}
       {Code Coach}{San Francisco, CA}
     \resumeItemListStart
-      \resumeItem {Item1}
-      \resumeItem {Item2}
-      \resumeItem {Item3}
+      \resumeItem {Teach school-age students the fundamentals of coding in python, javascript and MIT's scratch.}
+      \resumeItem {Design and guide students through larger projects to demonstrate the value of proper code structure and organization.}
     \resumeItemListEnd
   \resumeEntryEnd
 
   \resumeEntryStart
     \resumeEntryTSDL
-      {Ginzton Laboratory @ Stanford University}{June 2013 -- August 2014}
+      {Ginzton Laboratory @ Stanford University}{June 2013 --- August 2014}
       {Research Intern}{Stanford, CA}
     \resumeItemListStart
-      \resumeItem {Item4}
-      \resumeItem {Item5}
-      \resumeItem {Item6}
+      \resumeItem {Worked with the Stanford branch of the LIGO project, dedicated to detecting and understanding gravitational waves.}
+      \resumeItem {Used MATLAB and CAD software to model seismic isolation and optimize parameters
+of a multi-pendulum cryogenic suspension system.}
+      \resumeItem {Documented and presented simulation results with interpretations.}
     \resumeItemListEnd
   \resumeEntryEnd
 
