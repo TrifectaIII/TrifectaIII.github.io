@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+
+*, *::after, *::before {
+    font-family: 'PT Mono', monospace;
+}
+
+.container {
+    position:relative;
+    min-height:98vh;
+}
+
+.main-section {
+    padding-top:10rem;
+    padding-bottom:8rem;
+}
+
+.footer-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;            /* Footer height */
+    text-align: center;
+    font-size:small;
+    color:rgb(110, 110, 110);
+}
+
+.footer-section > a {
+    color:SteelBlue;
+}
+
+.footer-section > a:hover {
+    color:rgb(61, 113, 155);
+}

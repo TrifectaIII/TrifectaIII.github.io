@@ -1,0 +1,18 @@
+.personal-header {
+    font-size:7vw;
+    font-weight: bold;
+}
+
+@media (min-width: 550px) {
+    .personal-header {
+        font-size: 3.6rem;
+    }
+}
+
+.personal-link {
+    font-weight: bold;
+}
+
+.personal-links {
+    text-align: center;
+}

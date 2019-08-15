@@ -12,23 +12,31 @@
         <!-- Load skeleton.css from CDN-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" type="text/css" />
 
-        <!-- Load CSS File -->
-        <link href="/site/style.css" rel="stylesheet" type="text/css" />
+        <!-- Load CSS Files -->
+        <link href="/site/main.css" rel="stylesheet" type="text/css" />
+        <link href="/site/personal.css" rel="stylesheet" type="text/css" />
+        <link href="/site/projects.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class='container'>
-            <div class='row intro-row'>
-                <h2 class='name-header'>TrifectaIII<br>Dakota Madden-Fong</h2>
-                <hr>
-                <p class='bio'>A coder living and working in San Francisco, CA. I focus on software and web development.</p>
-                <div class='personal-links'>
-                    <span class='personal link'><a class='personal-link' href="mailto:maddenfong@gmail.com">maddenfong@gmail.com</a></span><br>
-                    <span class='personal link'><a class='personal-link' href="https://github.com/TrifectaIII">GitHub</a></span><br>
-                    <span class='personal link'><a class='personal-link' href="tex/resume.pdf">Resume</a></span><br>
+            <div class='row main-section'>
+                <div class='row personal'>
+                    <h2 class='personal-header'>TrifectaIII<br>Dakota Madden-Fong</h2>
+                    <hr>
+                    <p class='personal-bio'>A coder living and working in San Francisco, CA. I focus on software and web development.</p>
+                    <div class='personal-links'>
+                        <span><a class='personal-link' href="mailto:maddenfong@gmail.com">maddenfong@gmail.com</a></span><br>
+                        <span><a class='personal-link' href="https://github.com/TrifectaIII">GitHub</a></span><br>
+                        <span><a class='personal-link' href="tex/resume.pdf">Resume</a></span><br>
+                    </div>
+                </div>
+                <div class='row project-listings'>
+                    <!-- JS file will populate this div -->
                 </div>
             </div>
-            <div class='project-listings'>
-                <!-- JS file will populate this div -->
+            <div class='footer-section row'>
+                Created with <a href='http://getskeleton.com/'>Skeleton</a><br>
+                <a href='https://github.com/TrifectaIII/TrifectaIII.github.io'>GitHub</a>
             </div>
         </div>
 
