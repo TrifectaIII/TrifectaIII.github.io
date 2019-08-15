@@ -19,34 +19,36 @@ proj_req.onload = function () {
             let proj = projects[proj_name];
 
             //add html code for this project
-            //header
-            projectsHTML += '<h4 class="project-header">'+proj_name+'</h4>';
-            projectsHTML += '<hr class="project-rule">';
+            projectsHTML += '<div class="project-listing">';
 
-            projectsHTML += '<div class="row">';
-                projectsHTML += '<div class="six columns">';
-                    projectsHTML += '<p>';
-                        //description
-                        projectsHTML += proj.description;
-                        projectsHTML += '<br><br>';
-                        //languages
-                        projectsHTML += '<b>Languages: </b>'+proj.languages.join(', ');
-                        projectsHTML += '<br>';
-                        //techniques
-                        projectsHTML += '<b>Techniques: </b>'+proj.techniques.join(', ');
-                    projectsHTML += '</p>';
-                    projectsHTML += '<p class="project-links">';
-                        // site link
-                        projectsHTML += '<a href="' + proj.link + '" class="project-link">Link</a>';
-                        projectsHTML += ' | ';
-                        // github link
-                        projectsHTML += '<a href="' + proj.github + '" class="project-link">GitHub</a>';
-                    projectsHTML += '</p>';
+                projectsHTML += '<div class="row">';
+                    projectsHTML += '<div class="six columns">';
+                        //header
+                        projectsHTML += '<h4 class="project-header">'+proj_name+'</h4>';
+                        projectsHTML += '<hr class="project-rule">';
+                        projectsHTML += '<p>';
+                            //description
+                            projectsHTML += proj.description;
+                            projectsHTML += '<br><br>';
+                            //languages
+                            projectsHTML += '<b>Languages: </b>'+proj.languages.join(', ');
+                            projectsHTML += '<br>';
+                            //techniques
+                            projectsHTML += '<b>Techniques: </b>'+proj.techniques.join(', ');
+                        projectsHTML += '</p>';
+                        projectsHTML += '<p class="project-links">';
+                            // site link
+                            projectsHTML += '<a href="' + proj.link + '" class="project-link">Link</a>';
+                            projectsHTML += ' | ';
+                            // github link
+                            projectsHTML += '<a href="' + proj.github + '" class="project-link">GitHub</a>';
+                        projectsHTML += '</p>';
 
-                projectsHTML += '</div>';
-                projectsHTML += '<div class="six columns">';
-                    //image
-                    projectsHTML += '<img src="'+proj.image+'" class="project-image">';
+                    projectsHTML += '</div>';
+                    projectsHTML += '<div class="six columns">';
+                        //image
+                        projectsHTML += '<img src="'+proj.image+'" class="project-image">';
+                    projectsHTML += '</div>';
                 projectsHTML += '</div>';
             projectsHTML += '</div>';
         };
