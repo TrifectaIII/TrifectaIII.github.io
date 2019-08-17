@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
-*, *::after, *::before {
+/* *, *::after, *::before {
     font-family: 'PT Mono', monospace;
-}
+    
+} */
 
 .container {
     position:relative;
@@ -12,6 +13,7 @@
 .main-section {
     padding-top:10rem;
     padding-bottom:8rem;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer-section {
@@ -22,12 +24,13 @@
     text-align: center;
     font-size:small;
     color:rgb(110, 110, 110);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .footer-section > a {
-    color:SteelBlue;
+    color:dimgrey;
 }
 
 .footer-section > a:hover {
-    color:rgb(61, 113, 155);
+    color:black;
 }
