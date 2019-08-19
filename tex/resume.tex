@@ -15,7 +15,7 @@
 \usepackage{anyfontsize}
 \usepackage{xcolor}
 
-%-------------------------------------------------- SETTINGS HERE --------------------------------------------------
+%-------------------------------------------------- SETTINGS HERE ---------------------------------------------
 % Header settings
 \def \fullname {Dakota Madden-Fong}
 \def \subtitle {}
@@ -52,7 +52,7 @@
 \definecolor{accent}{HTML}{263238}
 \definecolor{links}{HTML}{1565C0}
 
-%------------------------------------------------------------------------------------------------------------------- 
+%--------------------------------------------------------------------------------------------------------------
 
 % Defines to make listing easier
 \def \linkedin {\linkedinicon \hspace{3pt}\href{\linkedinlink}{\linkedintext}}
@@ -167,15 +167,15 @@
 }
 
 \begin{document}
-%-------------------------------------------------- BEGIN HERE --------------------------------------------------
+%-------------------------------------------------- BEGIN HERE --------------------------------------------
 
-%---------------------------------------------------- HEADER ----------------------------------------------------
+%---------------------------------------------------- HEADER ----------------------------------------------
 
 %\headertype{\phone}{\email}{\github}{\website}{\linkedin}{} % Set the order of items here
 \headertype{\phone}{\email}{\website}{\github}{}{} % extra empty braces instead of linkedin
 \vspace{-10pt} % Set a negative value to push the body up, and the opposite
 
-%-------------------------------------------------- EDUCATION --------------------------------------------------
+%-------------------------------------------------- EDUCATION ---------------------------------------------
 \section{\faGraduationCap}{Education}
 
   \resumeEntryStart
@@ -184,7 +184,7 @@
       {BA Computer Science}{Salem, OR}
   \resumeEntryEnd
 
-%-------------------------------------------------- EXPERIENCE --------------------------------------------------
+%-------------------------------------------------- EXPERIENCE --------------------------------------------
 \section{\faPieChart}{Experience}
 
   \resumeEntryStart
@@ -210,7 +210,7 @@ of a multi-pendulum cryogenic suspension system.}
   \resumeEntryEnd
 
 
-%-------------------------------------------------- PROJECTS --------------------------------------------------
+%-------------------------------------------------- PROJECTS ----------------------------------------------
 \section{\faFlask}{Projects}
 
   \resumeEntryStart
@@ -231,7 +231,7 @@ of a multi-pendulum cryogenic suspension system.}
     \resumeItemListEnd
   \resumeEntryEnd
 
-%-------------------------------------------------- PROGRAMMING SKILLS --------------------------------------------------
+%--------------------------------------------- PROGRAMMING SKILLS -----------------------------------------
 \section{\faGears}{Technical Skills}
  \resumeEntryStart
   \resumeEntryS{Languages } {Python, Javascript, HTML, CSS, MATLAB}
@@ -240,10 +240,12 @@ of a multi-pendulum cryogenic suspension system.}
   %\resumeEntryS{Areas of Interest } {Computer Vision}
  \resumeEntryEnd
  
+% ------------------------------------------------ FOOTER -------------------------------------------------
 \begin{center}
-\begin{footnotesize}
-This document was created using a LaTeX template available here: \href{https://github.com/lcfyi/software-resume-template}{github.com/lcfyi/software-resume-template}.
-\end{footnotesize}
+\begin{scriptsize}
+\textcolor{gray}{This document was created using a LaTeX template available here:}
+ \href{https://github.com/lcfyi/software-resume-template}{github.com/lcfyi/software-resume-template}.
+\end{scriptsize}
 \end{center}
 
 \end{document}
