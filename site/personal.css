@@ -11,6 +11,11 @@
 
 .personal-link {
     font-weight: bold;
+    text-decoration: none;
+}
+
+.personal-link:hover {
+    text-decoration: underline;
 }
 
 .personal-links {

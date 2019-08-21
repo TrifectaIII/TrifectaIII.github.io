@@ -28,6 +28,11 @@
 
 .project-link {
     font-weight: bold;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
 }
 
 .project-links {
