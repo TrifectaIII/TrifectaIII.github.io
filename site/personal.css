@@ -9,6 +9,10 @@
     }
 }
 
+.personal-bio {
+    text-align: center;
+}
+
 .personal-link {
     font-weight: bold;
     text-decoration: none;
