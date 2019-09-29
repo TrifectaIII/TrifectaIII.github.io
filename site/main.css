@@ -14,7 +14,6 @@
 .section-header {
     font-size: 6.5vw;
     font-weight: bold;
-    /* text-align: center; */
 }
 
 @media (min-width: 550px) {
