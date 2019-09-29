@@ -11,6 +11,18 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
+.section-header {
+    font-size: 6.5vw;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+@media (min-width: 550px) {
+    .section-header {
+        font-size: 3.6rem;
+    }
+}
+
 .main-section {
     padding-top:10rem;
     padding-bottom:4rem; /* footer clearance */
@@ -26,7 +38,6 @@
     width: 100%;
     height: 2rem; /* Footer height */
     text-align: center;
-    font-size:small;
 }
 
 .footer-link {

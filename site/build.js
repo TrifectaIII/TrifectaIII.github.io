@@ -1,3 +1,15 @@
+// TOOLS ---------------------------------------------------------
+
+//compile html code from template using handlebars
+var tools_parser = Handlebars.compile(document.querySelector('.tools-template').innerHTML);
+//parse code and place code into div
+document.querySelector('.tools').innerHTML = tools_parser({tools:tools});
+
+
+
+
+// PROJECTS ------------------------------------------------------
+
 //copy projects to edit
 var projectsFormatted = JSON.parse(JSON.stringify(projects));
 
@@ -7,18 +19,7 @@ for (let proj in projectsFormatted) {
     projectsFormatted[proj]['techniques'] = projectsFormatted[proj]['techniques'].join(', ');
 }
 
-
-
-
-// div to place projects in
-var project_listings = document.querySelector('.project-listings');
-
-//template element
-var projects_template = document.querySelector('.projects-template');
-
 //compile html code from template using handlebars
-var parser = Handlebars.compile(projects_template.innerHTML);
-var compiled = parser({projects:projectsFormatted});
-
-//place code into div
-project_listings.innerHTML = compiled;
+var projects_parser = Handlebars.compile(document.querySelector('.projects-template').innerHTML);
+//parse code and place code into div
+document.querySelector('.projects').innerHTML = projects_parser({projects:projectsFormatted});

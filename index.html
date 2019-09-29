@@ -15,6 +15,7 @@
         <!-- Load CSS Files -->
         <link href="/site/main.css" rel="stylesheet" type="text/css" />
         <link href="/site/personal.css" rel="stylesheet" type="text/css" />
+        <link href="/site/tools.css" rel="stylesheet" type="text/css" />
         <link href="/site/projects.css" rel="stylesheet" type="text/css" />
 
         <!-- handlebars.js -->
@@ -29,47 +30,75 @@
                     <p class='personal-bio'>A coder living and working in San Francisco, CA. I focus on software and web development.</p>
                     <div class='personal-links'>
                         <span><a class='personal-link' href="mailto:maddenfong@gmail.com">maddenfong@gmail.com</a></span><br>
-                        <span><a class='personal-link' href="https://github.com/TrifectaIII">GitHub</a></span><br>
+                        <span><a class='personal-link' href="https://github.com/TrifectaIII">github</a></span><br>
                         <span><a class='personal-link' href="tex/resume.pdf">Resume</a></span><br>
                     </div>
                 </div>
 
+                <template class='tools-template'>
+                    <h3 class='section-header'>Tools</h3>
+                    <hr class="tools-rule">
+                    <table class='u-full-width'>
+                        <!-- <thead>
+                            <tr>
+                                <th>Tool</th>
+                                <th>Use</th>
+                                <th>Github</th>
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                            <!-- {{#each tools}} -->
+                            <tr>
+                                <td><a href='{{link}}' class='tool-link'>{{@key}}</a></td>
+                                <td>{{description}}</td>
+                                <td><a href='{{github}}' class='tool-link'>github</a></td>
+                            </tr>
+                            <!-- {{/each}} -->
+                        </tbody>
+                    </table>
+                </template>
+
+                <!-- compiled template placed in this div -->
+                <div class='tools row'></div>
+
                 <!-- template for project listings -->
                 <template class='projects-template'>
+                    <h3 class='section-header'>Projects</h3>
+                    <hr class="project-rule">
                     {{#each projects}}
-                    <div class="project-listing">
-                        <div class="row">
-                            <div class="six columns">
-                                <h4 class="project-header">{{@key}}</h4>
-                                <hr class="project-rule">
-                                <p>
-                                    {{description}}<br><br>
-                                    <b>Languages: </b>{{languages}}<br>
-                                    <b>Techniques: </b>{{techniques}}<br>
-                                </p>
-                                <p class="project-links">
-                                    <a href="{{link}}" class="project-link">Link</a> | 
-                                    <a href="{{github}}" class="project-link">GitHub</a>
-                                </p>
-                            </div>
-                            <div class="six columns">
-                                <img src="{{image}}" class="project-image">
-                            </div>
+                    <div class="project-listing row">
+                        <div class="six columns">
+                            <img src="{{image}}" class="project-image">
+                        </div>
+                        <div class="six columns">
+                            <h4 class="project-header">{{@key}}</h4>
+                            <!-- <hr class="project-rule"> -->
+                            <p>
+                                {{description}}<br><br>
+                                <b>Languages: </b>{{languages}}<br>
+                                <b>Techniques: </b>{{techniques}}<br>
+                            </p>
+                            <p class="project-links">
+                                <a href="{{link}}" class="project-link">Link</a> | 
+                                <a href="{{github}}" class="project-link">github</a>
+                            </p>
                         </div>
                     </div>
+                    <hr class="project-rule">
                     {{/each}}
                 </template>
 
-                <!-- template will place code here -->
-                <div class='row project-listings'></div>
+                <!-- compiled template placed in this div -->
+                <div class='projects row'></div>
             </div>
 
             <div class='footer-section row'>
-                <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>GitHub</a>
+                <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>github</a>
             </div>
         </div>
 
         <!-- Load JS Files -->
+        <script src="/site/tools.js"></script>
         <script src="/site/projects.js"></script>
         <script src="/site/build.js"></script>
     </body>
