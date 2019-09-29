@@ -1,17 +1,17 @@
 .projects {
-    margin-top:3rem;
+    margin-top:2.5rem;
 }
 
 .project-image {
     max-width: 100%;
     width:60rem;
-    border-radius: 2rem;
+    border-radius: 10px;
     border: 1px solid #E1E1E1;
 }
 
 .project-rule {
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .project-header {
@@ -23,6 +23,10 @@
     .project-header {
         font-size: 3.0rem;
     }
+}
+
+.project-links {
+    margin:auto;
 }
 
 .project-link {

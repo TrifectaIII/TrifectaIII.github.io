@@ -37,24 +37,15 @@
 
                 <template class='tools-template'>
                     <h3 class='section-header'>Tools</h3>
-                    <hr class="tools-rule">
+                    <!-- <hr class="tools-rule"> -->
                     <table class='u-full-width'>
-                        <!-- <thead>
-                            <tr>
-                                <th>Tool</th>
-                                <th>Use</th>
-                                <th>Github</th>
-                            </tr>
-                        </thead> -->
-                        <tbody>
-                            <!-- {{#each tools}} -->
-                            <tr>
-                                <td><a href='{{link}}' class='tool-link'>{{@key}}</a></td>
-                                <td>{{description}}</td>
-                                <td><a href='{{github}}' class='tool-link'>github</a></td>
-                            </tr>
-                            <!-- {{/each}} -->
-                        </tbody>
+                        <!-- {{#each tools}} -->
+                        <tr>
+                            <td><a href='{{link}}' class='tool-link'>{{@key}}</a></td>
+                            <td>{{description}}</td>
+                            <td><a href='{{github}}' class='tool-link'>github</a></td>
+                        </tr>
+                        <!-- {{/each}} -->
                     </table>
                 </template>
 
@@ -64,7 +55,7 @@
                 <!-- template for project listings -->
                 <template class='projects-template'>
                     <h3 class='section-header'>Projects</h3>
-                    <hr class="project-rule">
+                    <!-- <hr class="project-rule"> -->
                     {{#each projects}}
                     <div class="project-listing row">
                         <div class="six columns">
@@ -78,9 +69,9 @@
                                 <b>Languages: </b>{{languages}}<br>
                                 <b>Techniques: </b>{{techniques}}<br>
                             </p>
-                            <p class="project-links">
-                                <a href="{{github}}" class="project-link">github</a>
-                            </p>
+                                <div class='project-links'>
+                                    <a href="{{github}}" class="project-link">github</a>
+                                </div>
                         </div>
                     </div>
                     <hr class="project-rule">
