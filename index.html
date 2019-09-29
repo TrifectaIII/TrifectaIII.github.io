@@ -16,6 +16,9 @@
         <link href="/site/main.css" rel="stylesheet" type="text/css" />
         <link href="/site/personal.css" rel="stylesheet" type="text/css" />
         <link href="/site/projects.css" rel="stylesheet" type="text/css" />
+
+        <!-- handlebars.js -->
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>
     </head>
     <body>
         <div class='container'>
@@ -30,17 +33,44 @@
                         <span><a class='personal-link' href="tex/resume.pdf">Resume</a></span><br>
                     </div>
                 </div>
-                <div class='row project-listings'>
-                    <!-- JS file will populate this div -->
-                </div>
+
+                <!-- template for project listings -->
+                <template class='projects-template'>
+                    {{#each projects}}
+                    <div class="project-listing">
+                        <div class="row">
+                            <div class="six columns">
+                                <h4 class="project-header">{{@key}}</h4>
+                                <hr class="project-rule">
+                                <p>
+                                    {{description}}<br><br>
+                                    <b>Languages: </b>{{languages}}<br>
+                                    <b>Techniques: </b>{{techniques}}<br>
+                                </p>
+                                <p class="project-links">
+                                    <a href="{{link}}" class="project-link">Link</a> | 
+                                    <a href="{{github}}" class="project-link">GitHub</a>
+                                </p>
+                            </div>
+                            <div class="six columns">
+                                <img src="{{image}}" class="project-image">
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                </template>
+
+                <!-- template will place code here -->
+                <div class='row project-listings'></div>
             </div>
+
             <div class='footer-section row'>
-                Created with <a href='http://getskeleton.com/'>Skeleton</a><br>
-                <a href='https://github.com/TrifectaIII/TrifectaIII.github.io'>GitHub</a>
+                <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>GitHub</a>
             </div>
         </div>
 
         <!-- Load JS Files -->
         <script src="/site/projects.js"></script>
+        <script src="/site/build.js"></script>
     </body>
 </html>

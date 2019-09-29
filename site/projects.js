@@ -1,71 +1,26 @@
-// div to place projects in
-var project_listings = document.querySelector('.project-listings');
-
-//project json request
-var proj_req = new XMLHttpRequest();
-
-//when request finishes
-proj_req.onload = function () {
-	if (proj_req.status >= 200 && proj_req.status < 400) {
-		
-		//Get full response as JSON
-        let projects = JSON.parse(proj_req.response);
-        // console.log(projects);
-
-        var projectsHTML = '';
-
-        //loop thru all projects in json
-        for (let proj_name in projects) {
-            let proj = projects[proj_name];
-
-            //add html code for this project
-            projectsHTML += '<div class="project-listing">';
-
-                projectsHTML += '<div class="row">';
-                    projectsHTML += '<div class="six columns">';
-                        //header
-                        projectsHTML += '<h4 class="project-header">'+proj_name+'</h4>';
-                        projectsHTML += '<hr class="project-rule">';
-                        projectsHTML += '<p>';
-                            //description
-                            projectsHTML += proj.description;
-                            projectsHTML += '<br><br>';
-                            //languages
-                            projectsHTML += '<b>Languages: </b>'+proj.languages.join(', ');
-                            projectsHTML += '<br>';
-                            //techniques
-                            projectsHTML += '<b>Techniques: </b>'+proj.techniques.join(', ');
-                        projectsHTML += '</p>';
-                        projectsHTML += '<p class="project-links">';
-                            // site link
-                            projectsHTML += '<a href="' + proj.link + '" class="project-link">Link</a>';
-                            projectsHTML += ' | ';
-                            // github link
-                            projectsHTML += '<a href="' + proj.github + '" class="project-link">GitHub</a>';
-                        projectsHTML += '</p>';
-
-                    projectsHTML += '</div>';
-                    projectsHTML += '<div class="six columns">';
-                        //image
-                        projectsHTML += '<img src="'+proj.image+'" class="project-image">';
-                    projectsHTML += '</div>';
-                projectsHTML += '</div>';
-            projectsHTML += '</div>';
-        };
-
-        //alter page element to insert projects
-        project_listings.innerHTML = projectsHTML;
-
-    } else {
-		console.log('projects request completed incorrectly. Error', proj_req.status);
-	};
-};
-
-//when request errors
-proj_req.onerror = function () {
-    console.log('projects request completed incorrectly. Error', proj_req.status);
+var projects = {
+    "MTG Card Reader":{
+        "link":"https://www.mtg-cr.tk/",
+        "github":"https://github.com/TrifectaIII/MTG-Card-Reader-Web",
+        "languages":["Python", "HTML", "CSS", "JS"],
+        "techniques":["Image Classification", "Feature Detection", "Computer Vision", "UI Design", "Full-Stack Development"],
+        "description":"Use your webcam to identify Magic: The Gathering cards! MTG Card Reader allows you to build decklists and manage your collection easily by identifying cards using a live webcam feed.",
+        "image":"/site/mtgcr.png"
+    },
+    "MusiQ":{
+        "link":"https://musiq--trifectaiii.repl.co/",
+        "github":"https://github.com/TrifectaIII/replit-music-jam",
+        "languages":["Node.js", "HTML", "CSS", "JS"],
+        "techniques":["Websockets", "Real-Time Communication", "UI Design", "Full-Stack Development"],
+        "description":"MusiQ is a multiplayer music quiz game! Share your lobby link with others so they can join your game, then compete to see who can get the most questions right!",
+        "image":"/site/musiq.png"
+    },
+    "ZPS 2020":{
+        "link":"https://zanderian-prince-simulator-2020--yaboigraves.repl.co/",
+        "github":"https://github.com/yaboigraves/replit-game-jam",
+        "languages":["JS"],
+        "techniques":["UI Design"],
+        "description":"In Zanderian Prince Simulator 2020, you are a scammer trying to scam unwitting foreigners out of their money! Try and convince them to wire you money in an email, and if you are successful, you'll see their transfer to your bank account!",
+        "image":"/site/zps2020.png"
+    }
 }
-
-//send request
-proj_req.open('GET', '/site/projects.json', true);
-proj_req.send();

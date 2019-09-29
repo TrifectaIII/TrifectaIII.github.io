@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 *, *::after, *::before {
-    /* font-family: 'PT Mono', monospace; */
     box-sizing:border-box;
 }
 
@@ -9,11 +8,12 @@
     position:relative;
     min-height:98vh;
     padding:0px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .main-section {
     padding-top:10rem;
-    padding-bottom:8rem;
+    padding-bottom:4rem; /* footer clearance */
     padding-left:10px;
     padding-right:10px;
     font-family: 'Lexend Deca', sans-serif;
@@ -24,17 +24,16 @@
     padding:0px;
     bottom: 0;
     width: 100%;
-    height: 5rem;            /* Footer height */
+    height: 2rem; /* Footer height */
     text-align: center;
     font-size:small;
-    color:rgb(110, 110, 110);
-    font-family: 'Courier New', Courier, monospace;
 }
 
-.footer-section > a {
-    color:dimgrey;
+.footer-link {
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.footer-section > a:hover {
-    color:black;
+.footer-link:hover {
+    text-decoration: underline;
 }
