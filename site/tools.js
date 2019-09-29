@@ -5,7 +5,7 @@ var tools = {
         "github":"https://github.com/TrifectaIII/DS1-Soul-Level-Calculator"
     },
     "DS1 Class Calculator":{
-        "description":"A tool to calculate the best class based on build goals in Dark Souls 1.",
+        "description":"A tool to calculate the best starting class based on build goals in Dark Souls 1.",
         "link":"/DS1-Class-Calculator/",
         "github":"https://github.com/TrifectaIII/DS1-Class-Calculator"
     }
