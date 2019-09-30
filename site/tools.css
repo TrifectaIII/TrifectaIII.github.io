@@ -15,3 +15,7 @@
 .tool-link:hover {
     text-decoration: underline;
 }
+
+.tool-link.main-link {
+    font-size: larger;
+}

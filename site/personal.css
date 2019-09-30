@@ -12,11 +12,13 @@
 
 .personal-bio {
     text-align: center;
+    font-size: larger;
 }
 
 .personal-link {
     /* font-weight: bold; */
     text-decoration: none;
+    font-size: larger;
 }
 
 .personal-link:hover {
