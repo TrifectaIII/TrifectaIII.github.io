@@ -9,6 +9,13 @@
     min-height:98vh;
     padding:0px;
     font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+@media (min-width:550px) {
+    .container {
+        text-align: left;
+    }
 }
 
 .section-header {
@@ -18,7 +25,7 @@
 
 @media (min-width: 550px) {
     .section-header {
-        font-size: 3.0rem;
+        font-size: 3.3rem;
     }
 }
 
