@@ -60,23 +60,21 @@
                 <!-- template for project listings -->
                 <template class='projects-template'>
                     <h3 class='section-header'>Projects</h3>
-                    <!-- <hr class="project-rule"> -->
                     {{#each projects}}
                     <div class="project-listing row">
-                        <div class="six columns">
-                            <a href="{{link}}"><img src="{{image}}" class="project-image"></a>
-                        </div>
-                        <div class="six columns">
+                        <div class="project-desc-col six columns">
                             <h4 class="project-header"><a href="{{link}}" class="project-link">{{@key}}</a></h4>
-                            <!-- <hr class="project-rule"> -->
                             <p>
-                                {{description}}<br><br>
+                                {{description}}
+                                <br><br>
+                                <a href="{{github}}" class="project-link">github</a>
+                                <br><br>
                                 <b>Languages: </b>{{languages}}<br>
                                 <b>Techniques: </b>{{techniques}}<br>
                             </p>
-                                <div class='project-links'>
-                                    <a href="{{github}}" class="project-link">github</a>
-                                </div>
+                        </div>
+                        <div class="project-image-col six columns">
+                            <a href="{{link}}"><img src="{{image}}" class="project-image"></a>
                         </div>
                     </div>
                     <hr class="project-rule">

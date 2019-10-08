@@ -16,7 +16,7 @@
 
 .project-header {
     font-weight: bold;
-    font-size:6vw;
+    font-size:5vw;
 }
 
 @media (min-width: 550px) {
@@ -25,12 +25,7 @@
     }
 }
 
-.project-links {
-    margin:auto;
-}
-
 .project-link {
-    /* font-weight: bold; */
     text-decoration: none;
 }
 
