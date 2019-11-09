@@ -14,6 +14,7 @@
 
         <!-- Load CSS Files -->
         <link href="site/main.css" rel="stylesheet" type="text/css" />
+        <link href="site/modal.css" rel="stylesheet" type="text/css" />
         <link href="site/personal.css" rel="stylesheet" type="text/css" />
         <link href="site/tools.css" rel="stylesheet" type="text/css" />
         <link href="site/projects.css" rel="stylesheet" type="text/css" />
@@ -22,6 +23,44 @@
         <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>
     </head>
     <body>
+
+        <!-- modal window -->
+        <div class="modal">
+                <div class="modal-inner">
+                    <div class="modal-content">
+                        <div class="modal-close-icon">
+                            <a href="javascript:void(0)" class="close-modal">
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </a>
+                        </div>
+        
+                        <!-- Contents of Modal Window -->
+                        <div class="modal-content-inner">
+                            <div class='row'>
+                                <h2>Site Information</h2>
+                                <hr class="modal-buttons-seperator">
+                                <p>
+                                    Uses <a class='footer-link' href='http://getskeleton.com/'>Skeleton</a> and 
+                                    <a class='footer-link' href='https://handlebarsjs.com/'>Handlebars.js</a>' for the webpage and 
+                                    <a class='footer-link' href='https://www.latex-project.org/'>LaTeX</a> for the resume, based on a 
+                                    <a class='footer-link' href='https://github.com/lcfyi/software-resume-template'>template</a>.
+                                </p>
+                                <br>
+                                <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>github</a>
+                                <br>
+                            </div>
+        
+                            <!-- Close Modal Button -->
+                            <hr class="modal-buttons-seperator">
+                            <div class="modal-buttons">
+                                <button class="button close-modal button-primary">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         <div class='container'>
             <div class='main-section'>
                 <div class='row personal'>
@@ -86,7 +125,7 @@
             </div>
 
             <div class='footer-section row'>
-                <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>site github</a>
+                <button class='open-modal'>&#9881;</button>
             </div>
         </div>
 
@@ -94,5 +133,6 @@
         <script src="/site/tools.js"></script>
         <script src="/site/projects.js"></script>
         <script src="/site/build.js"></script>
+        <script src="/site/modal.js"></script>
     </body>
 </html>
