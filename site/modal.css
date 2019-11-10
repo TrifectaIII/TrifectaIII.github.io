@@ -77,3 +77,21 @@
 .modal-content-inner {
     text-align: center;
 }
+
+.mode-toggle::after {
+    content:'Dark Mode';
+}
+
+.dark-mode .mode-toggle::after {
+    content:'Light Mode'
+}
+
+.mode-toggle {
+    color:white;
+    background-color: black;
+}
+
+.dark-mode .mode-toggle {
+    color:black;
+    background-color: white;
+}
