@@ -34,6 +34,7 @@
     margin: 2em;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
     border-radius: 4px;
+    font-family: 'Courier Prime', monospace;
 }
 .modal .modal-inner .modal-content .modal-close-icon {
     position: absolute;
@@ -73,11 +74,28 @@
     margin:0px;
     font-size: larger;
     margin-bottom:10px;
+    border-color:black!important;
+    background-color:white;
+    color:black!important;
+    
+}
+
+.dark-mode .open-modal {
+    border-color:yellow!important;
+    background-color:rgb(30, 30, 30);
+    color:yellow!important;
 }
 
 .modal-content-inner {
     text-align: center;
 }
+
+.mode-toggle {
+    color:white!important;
+    background-color: black;
+    border-color:white!important;
+}
+
 
 .mode-toggle::after {
     content:'Dark Mode';
@@ -87,12 +105,12 @@
     content:'Light Mode'
 }
 
-.mode-toggle {
-    color:white;
-    background-color: black;
+.dark-mode .mode-toggle {
+    color:black!important;
+    background-color: white;
+    border-color:black!important;
 }
 
-.dark-mode .mode-toggle {
-    color:black;
-    background-color: white;
+.dark-mode .modal .modal-inner .modal-content {
+    background-color: rgb(30, 30, 30);
 }

@@ -48,8 +48,8 @@
                                 <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>github</a>
                                 <br><br>
                                 <!-- Dark/Light mode toggle button -->
-                                <!-- <button class='mode-toggle'></button> -->
-                                <!-- <br> -->
+                                <button class='mode-toggle'></button>
+                                <br>
                             </div>
         
                             <!-- Close Modal Button -->
@@ -64,6 +64,9 @@
 
 
         <div class='container'>
+            <div class='header-section row'>
+                <button class='open-modal'>&#9881;</button>
+            </div>
             <div class='main-section'>
                 <div class='row personal'>
                     <h2 class='personal-header'>TrifectaIII<br>Dakota Madden-Fong</h2>
@@ -78,15 +81,16 @@
 
                 <template class='tools-template'>
                     <h3 class='section-header'>Tools</h3>
+                    <hr class='tool-rule'>
                     {{#each tools}}
                     <div class='tool-listing row'>
-                        <div class='three columns'>
+                        <div class='four columns'>
                             <a href='{{link}}' class='tool-link main-link'>{{@key}}</a>
                         </div>
-                        <div class='eight columns'>
+                        <div class='six columns'>
                             {{description}}
                         </div>
-                        <div class='one column'>
+                        <div class='two columns github-column'>
                             <a href='{{github}}' class='tool-link'>github</a>
                         </div>
                     </div>
@@ -101,6 +105,7 @@
                 <!-- template for project listings -->
                 <template class='projects-template'>
                     <h3 class='section-header'>Projects</h3>
+                    <hr class="project-rule">
                     {{#each projects}}
                     <div class="project-listing row">
                         <div class="project-desc-col six columns">
@@ -124,10 +129,6 @@
 
                 <!-- compiled template placed in this div -->
                 <div class='projects row'></div>
-            </div>
-
-            <div class='footer-section row'>
-                <button class='open-modal'>&#9881;</button>
             </div>
         </div>
 
