@@ -14,7 +14,6 @@
 
         <!-- Load CSS Files -->
         <link href="site/main.css" rel="stylesheet" type="text/css" />
-        <link href="site/modal.css" rel="stylesheet" type="text/css" />
         <link href="site/personal.css" rel="stylesheet" type="text/css" />
         <link href="site/tools.css" rel="stylesheet" type="text/css" />
         <link href="site/projects.css" rel="stylesheet" type="text/css" />
@@ -23,49 +22,19 @@
         <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>
     </head>
     <body>
-
-        <!-- modal window -->
-        <div class="modal">
-                <div class="modal-inner">
-                    <div class="modal-content">
-                        <div class="modal-close-icon">
-                            <a href="javascript:void(0)" class="close-modal">
-                                <i class="fa fa-times" aria-hidden="true"></i>
-                            </a>
-                        </div>
-        
-                        <!-- Contents of Modal Window -->
-                        <div class="modal-content-inner">
-                            <div class='row'>
-                                <h2>Site Information</h2>
-                                <hr class="modal-buttons-seperator">
-                                <p>
-                                    Uses <a class='footer-link' href='http://getskeleton.com/'>Skeleton</a> and 
-                                    <a class='footer-link' href='https://handlebarsjs.com/'>Handlebars.js</a> for the webpage and 
-                                    <a class='footer-link' href='https://www.latex-project.org/'>LaTeX</a> for the resume, based on a 
-                                    <a class='footer-link' href='https://github.com/lcfyi/software-resume-template'>template</a>.
-                                </p>
-                                <a class='footer-link' href='https://github.com/TrifectaIII/TrifectaIII.github.io'>github</a>
-                                <br><br>
-                                <!-- Dark/Light mode toggle button -->
-                                <button class='mode-toggle'></button>
-                                <br>
-                            </div>
-        
-                            <!-- Close Modal Button -->
-                            <hr class="modal-buttons-seperator">
-                            <div class="modal-buttons">
-                                <button class="button close-modal button-primary">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         <div class='container'>
             <div class='header-section row'>
-                <button class='open-modal'>&#9881;</button>
+                <p>
+                    This site uses <a class='footer-link' href='http://getskeleton.com/'>Skeleton</a> and 
+                    <a class='footer-link' href='https://handlebarsjs.com/'>Handlebars.js</a> for the webpage and 
+                    <a class='footer-link' href='https://www.latex-project.org/'>LaTeX</a> for the resume, based on a 
+                    <a class='footer-link' href='https://github.com/lcfyi/software-resume-template'>template</a>.
+                    <p>
+                        <!-- Dark/Light mode toggle button -->
+                        <button class='mode-toggle'></button>
+                    </p>
+                    
+                </p>
             </div>
             <div class='main-section'>
                 <div class='row personal'>
@@ -115,8 +84,8 @@
                                 <br><br>
                                 <a href="{{github}}" class="project-link">github</a>
                                 <br><br>
-                                <b>Languages: </b>{{languages}}<br>
-                                <b>Techniques: </b>{{techniques}}<br>
+                                <b class='project-tags'>Languages: </b>{{languages}}<br>
+                                <b class='project-tags'>Techniques: </b>{{techniques}}<br>
                             </p>
                         </div>
                         <div class="project-image-col six columns">
@@ -135,7 +104,7 @@
         <!-- Load JS Files -->
         <script src="/site/tools.js"></script>
         <script src="/site/projects.js"></script>
+        <script src="/site/dark.js"></script>
         <script src="/site/build.js"></script>
-        <script src="/site/modal.js"></script>
     </body>
 </html>

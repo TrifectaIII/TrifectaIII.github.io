@@ -40,3 +40,7 @@
 .project-links {
     text-align: center;
 }
+
+.dark-mode .project-tags {
+    color:white;
+}
