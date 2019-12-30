@@ -1,3 +1,5 @@
+cookie.default.path = '/';
+
 // get cookie, and set default behaivior
 var saved = cookie.get('dark-mode','on');
 
