@@ -1,24 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
-
-
-*, *::after, *::before {
-    box-sizing:border-box;
-}
-
-.container {
-    position:relative;
-    min-height:98vh;
-    padding:0px;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-}
-
-@media (min-width:550px) {
-    .container {
-        text-align: left;
-    }
-}
-
 .section-header {
     font-size: 6.5vw;
     font-weight: bold;
@@ -34,57 +13,4 @@
     .section-header {
         font-size: 3.3rem;
     }
-}
-
-.main-section {
-    padding-top:10rem;
-    padding-bottom:2rem; /* footer clearance */
-    padding-left:10px;
-    padding-right:10px;
-}
-
-.header-section {
-    /* position: absolute; */
-    padding:0px;
-    /* bottom: 0; */
-    width: 100%;
-    /* height: 2rem; Footer height */
-    text-align: center;
-}
-
-hr {
-    border-width:1px;
-    border-style:solid;
-    border-color:black;
-}
-
-.dark-mode hr {
-    border-color:red;
-}
-
-.dark-mode {
-    background-color:rgb(30, 30, 30);
-    color:yellow;
-}
-
-.mode-toggle {
-    color:black!important;
-    background-color: white;
-    border-color:black!important;
-    font-family: 'Lexend Deca', sans-serif;
-    border-width: 2px;
-}
-
-.mode-toggle::after {
-    content:'Dark Mode';
-}
-
-.dark-mode .mode-toggle::after {
-    content:'Light Mode'
-}
-
-.dark-mode .mode-toggle {
-    color: yellow!important;
-    background-color: rgb(30, 30, 30);
-    border-color:yellow!important;
 }

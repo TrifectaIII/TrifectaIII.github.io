@@ -1,4 +1,5 @@
-var saved = cookie.get('dark-mode','off');
+// get cookie, and set default behaivior
+var saved = cookie.get('dark-mode','on');
 
 var mode_toggle = document.querySelector('.mode-toggle');
 
