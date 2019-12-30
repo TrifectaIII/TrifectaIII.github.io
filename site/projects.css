@@ -5,12 +5,6 @@
 .project-image {
     max-width: 100%;
     width:60rem;
-    /* border-radius: 10px; */
-    border: 2px solid rgb(150, 150, 150);
-}
-
-.dark-mode .project-image {
-    border-color:yellow;
 }
 
 .project-rule {
@@ -39,8 +33,4 @@
 
 .project-links {
     text-align: center;
-}
-
-.dark-mode .project-tags {
-    color:white;
 }

@@ -4,10 +4,6 @@
     text-align: center;
 }
 
-.dark-mode .personal-header {
-    color:white;
-}
-
 @media (min-width: 550px) {
     .personal-header {
         font-size: 3.8rem;
