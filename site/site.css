@@ -29,7 +29,8 @@ body {
 }
 
 button, 
-input {
+input,
+textarea {
     color:black!important;
     background-color: white;
     border-color:black!important;
@@ -38,7 +39,8 @@ input {
 }
 
 .dark-mode button,
-.dark-mode input {
+.dark-mode input,
+.dark-mode textarea {
     color: yellow!important;
     background-color: rgb(30, 30, 30);
     border-color:yellow!important;
@@ -53,7 +55,7 @@ input {
 }
 
 hr {
-    border-width:1px;
+    border-top-width:2px;
     border-style:solid;
     border-color:black;
 }
