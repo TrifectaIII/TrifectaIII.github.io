@@ -1,7 +1,7 @@
-cookie.defaults.path = '/';
+// cookie.defaults.path = '/';
 
 // get cookie, and set default behaivior
-var saved = cookie.get('dark-mode','on');
+var saved = cookie.get('dark-mode','off');
 
 var mode_toggle = document.querySelector('.mode-toggle');
 
@@ -11,10 +11,14 @@ mode_toggle.addEventListener('click',function () {
     dark_mode = !dark_mode;
     if (dark_mode) {
         document.body.classList.add('dark-mode');
-        cookie.set('dark-mode','on');
+        cookie.set('dark-mode','on', {
+            path: '/',
+        });
     } else {
         document.body.classList.remove('dark-mode');
-        cookie.set('dark-mode','off');
+        cookie.set('dark-mode','off', {
+            path: '/',
+        });
     }
 });
 
