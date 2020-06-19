@@ -92,3 +92,18 @@ img {
 .dark-mode img {
     border-color:yellow;
 }
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(30, 30, 30);;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1EAEDB;
+}
