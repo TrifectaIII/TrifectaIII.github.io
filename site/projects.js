@@ -7,6 +7,14 @@ var projects = {
         "description":"Use your webcam to identify Magic: The Gathering cards! MTG Card Reader allows you to build decklists and manage your collection easily by identifying cards using a live webcam feed.",
         "image":"/site/mtgcr.png"
     },
+    "Immunity":{
+        "link":"https://www.immunity.ml/",
+        "github":"https://github.com/TrifectaIII/Multiplayer-Game",
+        "languages":["Node.js", "HTML", "CSS", "JS"],
+        "techniques":["Websockets", "Real-Time Communication", "UI Design", "Full-Stack Development", "Custom Game Engine"],
+        "description":"Built with a custom server-side engine, Immunity is a multiplayer class-based action game! Join a game with your friends and blast waves of enemies away! (Note: In active development, Immunity is not yet feature complete and will be prone to bugs.)",
+        "image":"/site/immunity.png"
+    },
     "MusiQ":{
         "link":"https://musiq--trifectaiii.repl.co/",
         "github":"https://github.com/TrifectaIII/replit-music-jam",
