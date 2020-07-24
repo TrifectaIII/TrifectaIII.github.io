@@ -1,6 +1,6 @@
 var tools = {
-    "Javascript Practice":{
-        "description":"A tool to practice Javascript, problems to solve.",
+    "JavaScript Practice":{
+        "description":"A tool to practice JavaScript, with problems to solve.",
         "link":"JavascriptPractice/",
         "github":"https://github.com/TrifectaIII/Javascript-Practice"
     },
