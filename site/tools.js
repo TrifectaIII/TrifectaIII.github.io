@@ -1,4 +1,9 @@
 var tools = {
+    "Javascript Practice":{
+        "description":"A tool to practice Javascript, problems to solve.",
+        "link":"JavascriptPractice/",
+        "github":"https://github.com/TrifectaIII/Javascript-Practice"
+    },
     "DS1 Soul Level Calculator":{
         "description":"A tool to calculate the souls necessary to level up in Dark Souls 1.",
         "link":"DS1-Soul-Level-Calculator/",
