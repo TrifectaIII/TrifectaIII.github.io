@@ -77,8 +77,8 @@
                 <!-- template for project listings -->
                 <script class="projects-template" type="text/template">
                     <h3 class='section-header dm-white'>Projects</h3>
-                    <hr class="project-rule">
                     {{#each projects}}
+                    <hr class="project-rule">
                     <div class="project-listing row">
                         <div class="project-desc-col six columns">
                             <h4 class="project-header"><a href="{{link}}" class="project-link">{{@key}}</a></h4>
@@ -95,7 +95,6 @@
                             <a href="{{link}}"><img src="{{image}}" class="project-image"></a>
                         </div>
                     </div>
-                    <hr class="project-rule">
                     {{/each}}
                 </script>
 
