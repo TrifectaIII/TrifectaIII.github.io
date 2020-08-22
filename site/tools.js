@@ -1,7 +1,7 @@
 var tools = {
     "Popdown":{
         "description":"Responsive, lightweight, easy-to-use alternatives for prompt(), alert(), and confirm().",
-        "link":"https://www.npmjs.com/package/popdown",
+        "link":"Popdown/",
         "github":"https://github.com/TrifectaIII/Popdown",
     },
     "JavaScript Practice":{
