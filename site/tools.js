@@ -9,6 +9,11 @@ var tools = {
         "link":"JavaScript-Practice/",
         "github":"https://github.com/TrifectaIII/JavaScript-Practice",
     },
+    "MC Farm Info":{
+        "description":"A info site about the various farms on our minecraft server, built with React/Redux.",
+        "link":"/mc-farm-info",
+        "github":"https://github.com/TrifectaIII/mc-farm-info",
+    },
     "DS1 Soul Level Calculator":{
         "description":"A tool to calculate the souls necessary to level up in Dark Souls 1.",
         "link":"DS1-Soul-Level-Calculator/",
