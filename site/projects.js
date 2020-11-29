@@ -9,7 +9,7 @@ var projects = {
     },
     "Immunity":{
         "link":"https://www.immunity.ml/",
-        "github":"https://github.com/TrifectaIII/Multiplayer-Game",
+        "github":"https://github.com/TrifectaIII/Immunity",
         "languages":["Node.js", "HTML", "CSS", "JS", "SQL"],
         "techniques":["Websockets", "Real-Time Communication", "UI Design", "Full-Stack Development", "Custom Game Engine", "SQLite Database"],
         "description":"Built with a custom server-side engine, Immunity is a multiplayer class-based action game! Join a game with your friends and blast waves of enemies away! (Note: In active development, Immunity is not yet feature complete and will be prone to bugs.)",
