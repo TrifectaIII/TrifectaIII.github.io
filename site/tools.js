@@ -9,6 +9,11 @@ var tools = {
         "link":"JavaScript-Practice/",
         "github":"https://github.com/TrifectaIII/JavaScript-Practice",
     },
+    "MTG Guessing Game":{
+        "description":"A simple Magic: The Gathering card recognition game, build with react-redux, typescript, and SASS.",
+        "link":"/mtg-guessing-game",
+        "github":"https://github.com/TrifectaIII/mtg-guessing-game",
+    },
     "MC Farm Info":{
         "description":"A info site about the various farms on our minecraft server, built with React/Redux.",
         "link":"/mc-farm-info",
