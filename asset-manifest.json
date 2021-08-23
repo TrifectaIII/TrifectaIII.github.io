@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/static/js/main.4380eb9b.chunk.js",
+    "main.js.map": "/static/js/main.4380eb9b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5fe6fd08.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5fe6fd08.js.map",
+    "static/js/2.acb55509.chunk.js": "/static/js/2.acb55509.chunk.js",
+    "static/js/2.acb55509.chunk.js.map": "/static/js/2.acb55509.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.acb55509.chunk.js.LICENSE.txt": "/static/js/2.acb55509.chunk.js.LICENSE.txt",
+    "static/media/dakotamaddenfong_resume.b64abce8.pdf": "/static/media/dakotamaddenfong_resume.b64abce8.pdf",
+    "static/media/ds.496e572a.png": "/static/media/ds.496e572a.png",
+    "static/media/immunity.d92a1d88.png": "/static/media/immunity.d92a1d88.png",
+    "static/media/js.cae65a84.png": "/static/media/js.cae65a84.png",
+    "static/media/mc.4d9fb16a.png": "/static/media/mc.4d9fb16a.png",
+    "static/media/mtg.21dfb186.png": "/static/media/mtg.21dfb186.png",
+    "static/media/mtgcr.cfdd667f.png": "/static/media/mtgcr.cfdd667f.png",
+    "static/media/musiq.6c5a333c.png": "/static/media/musiq.6c5a333c.png",
+    "static/media/zps2020.7532ba99.png": "/static/media/zps2020.7532ba99.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fe6fd08.js",
+    "static/js/2.acb55509.chunk.js",
+    "static/js/main.4380eb9b.chunk.js"
+  ]
+}
