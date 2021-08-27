@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.769f2b58.chunk.js",
-    "main.js.map": "/static/js/main.769f2b58.chunk.js.map",
+    "main.js": "/static/js/main.80f9ca3c.chunk.js",
+    "main.js.map": "/static/js/main.80f9ca3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5fe6fd08.js",
     "runtime-main.js.map": "/static/js/runtime-main.5fe6fd08.js.map",
-    "static/js/2.ce9aab78.chunk.js": "/static/js/2.ce9aab78.chunk.js",
-    "static/js/2.ce9aab78.chunk.js.map": "/static/js/2.ce9aab78.chunk.js.map",
+    "static/js/2.e012c32c.chunk.js": "/static/js/2.e012c32c.chunk.js",
+    "static/js/2.e012c32c.chunk.js.map": "/static/js/2.e012c32c.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.ce9aab78.chunk.js.LICENSE.txt": "/static/js/2.ce9aab78.chunk.js.LICENSE.txt",
+    "static/js/2.e012c32c.chunk.js.LICENSE.txt": "/static/js/2.e012c32c.chunk.js.LICENSE.txt",
     "static/media/dakotamaddenfong_resume.b64abce8.pdf": "/static/media/dakotamaddenfong_resume.b64abce8.pdf",
     "static/media/ds.496e572a.png": "/static/media/ds.496e572a.png",
     "static/media/immunity.d92a1d88.png": "/static/media/immunity.d92a1d88.png",
@@ -20,7 +20,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5fe6fd08.js",
-    "static/js/2.ce9aab78.chunk.js",
-    "static/js/main.769f2b58.chunk.js"
+    "static/js/2.e012c32c.chunk.js",
+    "static/js/main.80f9ca3c.chunk.js"
   ]
 }
